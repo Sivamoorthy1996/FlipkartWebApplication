@@ -14,8 +14,11 @@ public class ProductPage
 		PageFactory.initElements(ThreadSafeClass.getDriver(), this);
 	}
 	
-	@FindBy(xpath = "//a[text()='DARSHANAM WORLD 220v 500w Portable Electric Heater Mini...']")
+	@FindBy(xpath = "//img[@class='_396cs4 _3exPp9']/ancestor::a[@class='_2rpwqI']/following-sibling::a[@class='s1Q9rs']")
 	private WebElement product;
+	
+	@FindBy(xpath = "//span[@class='B_NuCI']")
+	private WebElement productName;
 	
 
 	
@@ -24,17 +27,12 @@ public class ProductPage
 	 */
 	public  String GettingData(WebDriverUtility webdriver) 
 	{  
-	   webdriver.threadSleep();
-		return product.getAttribute("title");
+	    webdriver.threadSleep();
+		product.click();
+		return product.getAttribute("title").trim();
 		  
 	}
 	
-	/*
-	 * This method is used to click on the product
-	 */
-	public void ClickOnProduct()
-	{
-		product.click();	
-	}
+
 	
 }

@@ -56,6 +56,7 @@ public class BaseClass extends instanceClass
 		webdriver.maximizeBrowser();
 		webdriver.implicitWait(longTimeout);
 		
+		
 	
 		//Creating object for the common pom repo classes
 		commonpage = new LoginPage();
@@ -76,7 +77,7 @@ public class BaseClass extends instanceClass
 		excelutility.workbookClose();
 
 		//closing the browser
-		webdriver.closeBrowser();
+	//	webdriver.closeBrowser();
 
 	}
 

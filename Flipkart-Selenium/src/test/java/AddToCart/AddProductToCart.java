@@ -11,7 +11,6 @@ public class AddProductToCart extends BaseClass
 	{
 	    commonpage.EnterData(EnterData,username,password);
 	    String ActualProductName = productpage.GettingData(webdriver);
-        productpage.ClickOnProduct();
 	    String ExpectedProductName =secondpage.ClickOnAddToCart(webdriver).ExpectedProduct();
 	    Assert.assertEquals(ExpectedProductName, ActualProductName);
 	    
