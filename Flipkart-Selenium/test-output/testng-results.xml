@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-20T14:09:33 IST" name="Default suite" finished-at="2022-09-20T14:10:20 IST" duration-ms="47040">
+  <suite started-at="2022-09-20T16:49:07 IST" name="Default suite" finished-at="2022-09-20T16:49:26 IST" duration-ms="19084">
     <groups>
     </groups>
-    <test started-at="2022-09-20T14:09:33 IST" name="Default test" finished-at="2022-09-20T14:10:20 IST" duration-ms="47040">
+    <test started-at="2022-09-20T16:49:07 IST" name="Default test" finished-at="2022-09-20T16:49:26 IST" duration-ms="19084">
       <class name="AddToCart.AddProductToCart">
-        <test-method is-config="true" signature="classSetup()[pri:0, instance:AddToCart.AddProductToCart@70e9c95d]" started-at="2022-09-20T14:09:33 IST" name="classSetup" finished-at="2022-09-20T14:10:11 IST" duration-ms="37834" status="PASS">
+        <test-method is-config="true" signature="classSetup()[pri:0, instance:AddToCart.AddProductToCart@70e9c95d]" started-at="2022-09-20T16:49:07 IST" name="classSetup" finished-at="2022-09-20T16:49:19 IST" duration-ms="12394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- classSetup -->
-        <test-method signature="addToCart()[pri:0, instance:AddToCart.AddProductToCart@70e9c95d]" started-at="2022-09-20T14:10:11 IST" name="addToCart" finished-at="2022-09-20T14:10:19 IST" duration-ms="8534" status="PASS">
+        <test-method signature="addToCart()[pri:0, instance:AddToCart.AddProductToCart@70e9c95d]" started-at="2022-09-20T16:49:20 IST" name="addToCart" finished-at="2022-09-20T16:49:26 IST" duration-ms="6612" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCart -->
-        <test-method is-config="true" signature="classTearDown()[pri:0, instance:AddToCart.AddProductToCart@70e9c95d]" started-at="2022-09-20T14:10:19 IST" name="classTearDown" finished-at="2022-09-20T14:10:20 IST" duration-ms="607" status="PASS">
+        <test-method is-config="true" signature="classTearDown()[pri:0, instance:AddToCart.AddProductToCart@70e9c95d]" started-at="2022-09-20T16:49:26 IST" name="classTearDown" finished-at="2022-09-20T16:49:26 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- classTearDown -->
